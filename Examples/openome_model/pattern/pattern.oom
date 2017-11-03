@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edu.toronto.cs.openome_model:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:edu.toronto.cs.openome_model="http:///edu/toronto/cs/openome_model.ecore" name="/home/normaluser/workspace/Examples/openome_model/pattern/pattern.oom">
+  <intentions xsi:type="edu.toronto.cs.openome_model:Softgoal" name="Security" exclusive="false" sequential="false" contributesFrom="//@contributions.0"/>
+  <contributions xsi:type="edu.toronto.cs.openome_model:MakeContribution" target="//@intentions.0" source="//@containers.0/@intentions.0"/>
+  <dependencies dependencyFrom="//@containers.0/@intentions.0" dependencyTo="//@containers.1/@intentions.0" label="D"/>
+  <containers xsi:type="edu.toronto.cs.openome_model:Role" name="B">
+    <intentions xsi:type="edu.toronto.cs.openome_model:Goal" dependencyTo="//@dependencies.0" name="G2" exclusive="false" sequential="false" contributesTo="//@contributions.0"/>
+  </containers>
+  <containers xsi:type="edu.toronto.cs.openome_model:Role" name="A">
+    <intentions xsi:type="edu.toronto.cs.openome_model:Goal" dependencyFrom="//@dependencies.0" name="G1" exclusive="false" sequential="false"/>
+  </containers>
+</edu.toronto.cs.openome_model:Model>

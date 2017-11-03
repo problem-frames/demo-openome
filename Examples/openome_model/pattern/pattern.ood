@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:edu.toronto.cs.openome_model="http:///edu/toronto/cs/openome_model.ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_BvlD8cDMEeeNbcy2jvH30A" type="openome_model" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_B4GGwMDMEeeNbcy2jvH30A" type="1004" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_B4Gt0MDMEeeNbcy2jvH30A" type="4036"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_B4Gt0cDMEeeNbcy2jvH30A" type="5004">
+      <children xmi:type="notation:Shape" xmi:id="_B5nwwMDMEeeNbcy2jvH30A" type="2013" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_B5oX0MDMEeeNbcy2jvH30A" type="4028"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_B5oX0cDMEeeNbcy2jvH30A" type="4029">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_B5oX0sDMEeeNbcy2jvH30A" y="5"/>
+        </children>
+        <element xmi:type="edu.toronto.cs.openome_model:Goal" href="pattern.oom#//@containers.0/@intentions.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B5nwwcDMEeeNbcy2jvH30A" x="67" y="113"/>
+      </children>
+    </children>
+    <element xmi:type="edu.toronto.cs.openome_model:Role" href="pattern.oom#//@containers.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B4GGwcDMEeeNbcy2jvH30A" x="264" y="-72" width="214" height="201"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_B4HU4MDMEeeNbcy2jvH30A" type="1004" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_B4H78MDMEeeNbcy2jvH30A" type="4036"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_B4H78cDMEeeNbcy2jvH30A" type="5004">
+      <children xmi:type="notation:Shape" xmi:id="_B56rsMDMEeeNbcy2jvH30A" type="2013" fontName="Sans">
+        <children xmi:type="notation:DecorationNode" xmi:id="_B56rssDMEeeNbcy2jvH30A" type="4028"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_B57SwMDMEeeNbcy2jvH30A" type="4029">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_B57SwcDMEeeNbcy2jvH30A" y="5"/>
+        </children>
+        <element xmi:type="edu.toronto.cs.openome_model:Goal" href="pattern.oom#//@containers.1/@intentions.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B56rscDMEeeNbcy2jvH30A" x="55" y="103"/>
+      </children>
+    </children>
+    <element xmi:type="edu.toronto.cs.openome_model:Role" href="pattern.oom#//@containers.1"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B4HU4cDMEeeNbcy2jvH30A" x="36" y="-72" width="205" height="205"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_B49pcMDMEeeNbcy2jvH30A" type="2002" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_B4-QgMDMEeeNbcy2jvH30A" type="4003"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_B4-QgcDMEeeNbcy2jvH30A" type="4004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_B4-QgsDMEeeNbcy2jvH30A" y="5"/>
+    </children>
+    <element xmi:type="edu.toronto.cs.openome_model:Softgoal" href="pattern.oom#//@intentions.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B49pccDMEeeNbcy2jvH30A" x="492" y="-60"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_BvlD8sDMEeeNbcy2jvH30A"/>
+  <element xmi:type="edu.toronto.cs.openome_model:Model" href="pattern.oom#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_B6deQMDMEeeNbcy2jvH30A" type="3001" source="_B56rsMDMEeeNbcy2jvH30A" target="_B5nwwMDMEeeNbcy2jvH30A">
+    <styles xmi:type="notation:FontStyle" xmi:id="_B6deQcDMEeeNbcy2jvH30A" fontName="Sans"/>
+    <element xmi:type="edu.toronto.cs.openome_model:Dependency" href="pattern.oom#//@dependencies.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_B6deQsDMEeeNbcy2jvH30A" points="[0, 0, 0, 0]$[-1, -1, -1, -1]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_B648EMDMEeeNbcy2jvH30A" type="3006" source="_B5nwwMDMEeeNbcy2jvH30A" target="_B49pcMDMEeeNbcy2jvH30A">
+    <children xmi:type="notation:DecorationNode" xmi:id="_B648E8DMEeeNbcy2jvH30A" type="4047">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_B65jIMDMEeeNbcy2jvH30A" x="17" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_B648EcDMEeeNbcy2jvH30A" fontName="Sans"/>
+    <element xmi:type="edu.toronto.cs.openome_model:MakeContribution" href="pattern.oom#//@contributions.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_B648EsDMEeeNbcy2jvH30A" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>

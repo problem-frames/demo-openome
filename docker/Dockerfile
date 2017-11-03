@@ -10,6 +10,7 @@ RUN adduser normaluser && echo "normaluser:normaluser" | chpasswd
 RUN apt-get install gawk -y
 RUN chown -R normaluser.normaluser /home/normaluser /openome
 RUN chmod +x /openome/launcher
+RUN apt-get install xterm -y
 USER normaluser
 WORKDIR /home/normaluser
 CMD ["/openome/launcher"]
