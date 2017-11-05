@@ -5,4 +5,4 @@ xhost +
 docker run -v $(pwd):/home/normaluser/workspace -it --net=host \
             -e DISPLAY=$ip:0 \
             -v /tmp/.X11-unix:/tmp/.X11-unix \
-            $tag $*
+            yijun/$tag $*
